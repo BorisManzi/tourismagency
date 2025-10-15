@@ -12,4 +12,4 @@ jobs:
         - uses: quarksgroup/andasy-action@main
           env:
           # Set access token
-            ANDASY_ACCESS_TOKEN: ${{ secrets.AgIGYW5kYXN5AAIhdXNlcl9lbWFpbCA9IGJvcmlzb2c3ODRAZ21haWwuY29tAAAGIJpMEgyQYO8RXqlEKE3XHQvT3wR0LqxiVjERpF_vSVWf }}
+            ANDASY_ACCESS_TOKEN: AgIGYW5kYXN5AAIhdXNlcl9lbWFpbCA9IGJvcmlzb2c3ODRAZ21haWwuY29tAAAGIJpMEgyQYO8RXqlEKE3XHQvT3wR0LqxiVjERpF_vSVWf
