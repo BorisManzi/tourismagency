@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safaritours East Africa - Your Adventure Awaits</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">Safaritours</div>
+        <nav class="main-nav">
+            <ul class="nav-list" id="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#tours">Our Safaris</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact" class="btn btn-primary">Book Now</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Discover the Magic of East Africa</h1>
+                <p>Unforgettable Safaris in Kenya, Tanzania, Uganda & Rwanda.</p>
+                <a href="#tours" class="btn btn-large">View Safaris</a>
+            </div>
+        </section>
+
+        <section class="booking-bar">
+            <h2>Plan Your Adventure</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Destination (e.g., Serengeti)" required>
+                <input type="date" required>
+                <select required>
+                    <option value="">Travelers</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3+">3+</option>
+                </select>
+                <button type="submit" class="btn btn-primary">Find Tours</button>
+            </form>
+        </section>
+
+        <section id="destinations" class="section-padding">
+            <h2>Iconic East African Destinations</h2>
+            <div class="destination-grid">
+                <div class="card destination-card">
+                    <img src="kenya.jpg" alt="Maasai Mara, Kenya">
+                    <h3>Kenya Safaris</h3>
+                    <p>The Great Migration & Stunning Landscapes.</p>
+                </div>
+                <div class="card destination-card">
+                    <img src="tanzania.jpg" alt="Serengeti, Tanzania">
+                    <h3>Tanzania Adventures</h3>
+                    <p>Serengeti, Ngorongoro Crater & Kilimanjaro.</p>
+                </div>
+                <div class="card destination-card">
+                    <img src="uganda.jpg" alt="Gorillas, Uganda">
+                    <h3>Uganda & Rwanda</h3>
+                    <p>Mountain Gorilla Trekking Experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tours" class="section-padding bg-light">
+            <h2>Featured Safari Packages</h2>
+            <div class="tour-grid">
+                <article class="card tour-card">
+                    <img src="package1.jpg" alt="Classic Kenya Safari">
+                    <div class="tour-details">
+                        <h4>Classic Kenya: 7-Day Migration Tour</h4>
+                        <p>📍 Maasai Mara & Amboseli</p>
+                        <p>💵 From $2,950 pp</p>
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                    </div>
+                </article>
+                <article class="card tour-card">
+                    <img src="package2.jpg" alt="Tanzania Crater Tour">
+                    <div class="tour-details">
+                        <h4>Tanzania Wonders: 5-Day Crater & Wildlife</h4>
+                        <p>📍 Ngorongoro & Tarangire</p>
+                        <p>💵 From $2,100 pp</p>
+                        <a href="#" class="btn btn-secondary">Explore</a>
+                    </div>
+                </article>
+                </div>
+        </section>
+
+        <section id="about" class="section-padding">
+            <h2>Why Choose Safaritours?</h2>
+            <p class="intro-text">Local expertise, personalized trips, and sustainable tourism.</p>
+            <div class="testimonial-container">
+                <blockquote class="testimonial">
+                    "The trip of a lifetime! Safaritours planned every detail perfectly." - Emily R.
+                </blockquote>
+                </div>
+        </section>
+
+        <section id="contact" class="cta-section">
+            <h2>Ready to Start Your Safari?</h2>
+            <p>Contact our experts to tailor your dream East African adventure.</p>
+            <a href="mailto:info@safaritours.com" class="btn btn-large btn-primary">Get a Free Quote</a>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#tours">Packages</a></li>
+                    <li><a href="#">Travel Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+                <p>Email: info@safaritours.com</p>
+            </div>
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2025 Safaritours East Africa. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
